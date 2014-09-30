@@ -30,7 +30,7 @@ AC_PATH_PROG([AR], [ar], [/usr/bin/ar],
 
 AC_DISABLE_STATIC
 LT_PREREQ([2.4.2])
-LT_INIT([dlopen])
+LT_INIT
 LT_LANG([C])
 AC_SUBST([LIBTOOL_DEPS])
 
